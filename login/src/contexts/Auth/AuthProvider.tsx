@@ -14,7 +14,7 @@ export const AuthProvider = ({ children }: { children: JSX.Element }) => {
             "email": "fedispato@gmail.com"
         });
 
-        return false;
+        return true;
     }
 
     const signout = async () => {
